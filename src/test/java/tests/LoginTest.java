@@ -12,5 +12,7 @@ public class LoginTest extends BaseTest{
         loginPage.login(PropertyManager.getInstance().getGoodEmail(), PropertyManager.getInstance().getGoodPassword());
         UserLoggedInPage userLoggedInPage = new UserLoggedInPage(driver);
         userLoggedInPage.verifyLogin("Sign ou");
+        System.out.println("Jovica");
     }
+
 }
